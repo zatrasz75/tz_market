@@ -1,0 +1,10 @@
+development:
+  dialect: postgres
+  datasource: ${DB_CONNECTION_STRING}
+  dir: migrations
+
+production:
+  dialect: postgres
+  datasource: ${DB_CONNECTION_STRING}
+  dir: migrations
+  table: migrations

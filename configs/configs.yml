@@ -1,0 +1,14 @@
+server:
+  host: localhost
+  port: 8283
+  cors-allowed-origins:
+    - "https://api.example.com"
+    - "https://example.com"
+    - "http://localhost:8787"
+
+database:
+  host: localhost
+  user: zatrasz
+  password: postgrespw
+  db: db-market
+  port: 49777
